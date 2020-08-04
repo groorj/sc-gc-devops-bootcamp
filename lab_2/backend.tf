@@ -1,6 +1,6 @@
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "gaguiar-sc-lab-tfstate"
     prefix = "terraform/state/lab2"
   }
 }
